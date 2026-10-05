@@ -58,7 +58,7 @@ LICENSE.md
 
 ### Ứng dụng Claude (claude.ai, Claude desktop)
 
-1. Tải repo về, nén riêng thư mục `project-feasibility` thành `project-feasibility.zip` (file zip phải chứa thư mục `project-feasibility` ở cấp ngoài cùng).
+1. Tải file `project-feasibility.zip` ở trang [Releases](https://github.com/sefxvn16/project-feasibility/releases/latest). Hoặc tải repo về rồi tự nén riêng thư mục `project-feasibility` (file zip phải chứa thư mục `project-feasibility` ở cấp ngoài cùng).
 2. Mở Claude, vào **Customize → Skills**, bấm **+** → **Create skill** → **Upload a skill** và chọn `project-feasibility.zip`. Tên và vị trí menu có thể khác tùy phiên bản ứng dụng. Skill cần bật tính năng chạy mã (code execution).
 3. Kiểm tra skill `project-feasibility` đã hiện trong danh sách và đang bật.
 

@@ -60,7 +60,7 @@ LICENSE.md
 
 ### Claude apps (claude.ai, Claude desktop)
 
-1. Download the repo and zip the `project-feasibility` folder on its own into `project-feasibility.zip` (the zip must contain the `project-feasibility` folder at its top level).
+1. Download `project-feasibility.zip` from the [Releases](https://github.com/sefxvn16/project-feasibility/releases/latest) page. Alternatively, download the repo and zip the `project-feasibility` folder on its own (the zip must contain the `project-feasibility` folder at its top level).
 2. Open Claude, go to **Customize → Skills**, click **+** → **Create skill** → **Upload a skill**, and choose `project-feasibility.zip`. Menu names and locations may differ between app versions. Skills require code execution to be enabled.
 3. Check that `project-feasibility` appears in the list and is turned on.
 
