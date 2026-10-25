@@ -3,7 +3,7 @@ name: project-feasibility
 description: Dùng để lập hoặc phân tích hiệu quả tài chính dự án phục vụ việc ra quyết định nội bộ ở giai đoạn sơ bộ, như dòng tiền, NPV, IRR, thời gian hoàn vốn, phân tích độ nhạy và kết luận đầu tư. Dự án có thể là đầu tư mới, thương vụ M&A hoặc hợp tác kinh doanh. Kích hoạt khi yêu cầu liên quan đến hiệu quả tài chính của một dự án, kể cả khi người dùng không gọi tên skill. Không dùng cho báo cáo tài chính doanh nghiệp, kiểm toán, hồ sơ vay vốn ngân hàng hoặc quỹ đầu tư, hay định giá chính thức.
 ---
 
-# Project Feasibility — Phân tích hiệu quả tài chính dự án
+# Project Feasibility: Phân tích hiệu quả tài chính dự án
 
 ## 1. Phạm vi & mục tiêu
 
@@ -17,7 +17,7 @@ Kết quả chỉ phục vụ phân tích và thảo luận nội bộ ở mức
 
 Skill này áp dụng cùng một mức độ chặt chẽ trong mọi trường hợp, kể cả khi dùng cho mục đích học thuật hoặc minh họa. Nếu cần cách xử lý khác, người dùng phải nêu rõ yêu cầu.
 
-## 2. Nguyên tắc nền tảng — kỷ luật giả định
+## 2. Nguyên tắc nền tảng: kỷ luật giả định
 
 Mọi nhận định trong phân tích phải được gắn một trong ba nhãn:
 
@@ -41,7 +41,7 @@ Cơ chế này nhằm tránh hai vấn đề. Thứ nhất, nếu giả định 
 
 Việc dừng lại sau mỗi pha buộc các giả định và mô hình phải được kiểm tra trước khi biết kết quả cuối, qua đó hạn chế việc điều chỉnh ngược từ kết quả về đầu vào.
 
-### 3.1 F1 — Data & Assumptions
+### 3.1 F1: Data & Assumptions
 
 Nhiệm vụ bắt buộc:
 
@@ -54,7 +54,7 @@ Chế độ mặc định: chỉ xử lý dữ liệu người dùng cung cấp,
 
 Việc không được làm ở F1: tính hiệu quả tài chính, phân tích chiến lược, kết luận đầu tư, tạo giả định vượt ngoài những gì đã xác lập (giả định thay thế chỉ được tạo khi người dùng cho phép theo mục 4) hoặc đưa ra các đánh giá như “tốt”, “khả quan”, “ổn”. F1 chỉ xác định dữ liệu, điều kiện, biến nhạy và những khoảng trống cần xử lý.
 
-### 3.2 F2 — Modeling & Calculation
+### 3.2 F2: Modeling & Calculation
 
 Trước khi dựng file:
 
@@ -85,7 +85,7 @@ File phải có phần chú thích quy ước màu để người xem đọc đ�
 
 Việc không được làm ở F2: tạo hoặc điều chỉnh giả định đầu vào. Mọi thay đổi giả định phải quay lại F1 theo quy tắc tại mục 8. F2 cũng không phân tích độ nhạy, diễn giải ý nghĩa kết quả, đưa ra kết luận đầu tư hoặc trình bày mô hình theo dạng báo cáo tài chính hay tài liệu kiểm toán.
 
-### 3.3 F3 — Analysis & Decision
+### 3.3 F3: Analysis & Decision
 
 Nhiệm vụ bắt buộc:
 
@@ -158,7 +158,7 @@ Ngoại lệ duy nhất là **micro-loop debug từ F2 về F1**, chỉ dùng ch
 
 **Cấm xuyên suốt pipeline:** đưa ra kết luận ở F1 hoặc F2, tạo giả định ở F2 hoặc F3, và thực hiện tính toán mới ở F3.
 
-## 9. Câu bị cấm — chặn ngay
+## 9. Câu bị cấm: chặn ngay
 
 Khi người dùng dùng một trong các câu dưới đây, phải dừng lại ngay, không tiếp tục suy diễn và quay về F1. Sau khi đã quay về F1, nếu dữ liệu vẫn chưa đủ nhưng người dùng muốn tiếp tục mà không dùng các câu này, áp dụng fail-soft theo mục 10:
 

@@ -2,7 +2,7 @@
 
 **English** | [Tiếng Việt](README.vi.md)
 
-A Claude skill for building and analyzing project financial feasibility models (cash flow, NPV, IRR, Payback, sensitivity analysis, investment conclusion) for **preliminary internal decisions** on a specific project: a new investment, an M&A deal or a business partnership. Its focus is assumption discipline: every input is labeled, the work moves through three phases with a stop after each, and assumptions cannot be adjusted to make the result look better.
+A skill for AI assistants for building and analyzing project financial feasibility models (cash flow, NPV, IRR, Payback, sensitivity analysis, investment conclusion) for **preliminary internal decisions** on a specific project: a new investment, an M&A deal or a business partnership. Its focus is assumption discipline: every input is labeled, the work moves through three phases with a stop after each, and assumptions cannot be adjusted to make the result look better.
 
 > The skill instructions (`SKILL.md`) are currently written in Vietnamese. Technical terms (NPV, IRR, Fact, Estimate, Assumption, F1–F3…) are kept in English.
 

@@ -2,7 +2,7 @@
 
 [English](README.md) | **Tiếng Việt**
 
-Skill cho Claude để dựng và phân tích mô hình hiệu quả tài chính dự án (dòng tiền, NPV, IRR, Payback, phân tích độ nhạy, kết luận đầu tư) cho **quyết định nội bộ sơ bộ** về một dự án cụ thể: đầu tư mới, thương vụ M&A hoặc hợp tác kinh doanh. Trọng tâm là kỷ luật giả định: mọi dữ liệu đầu vào đều gắn nhãn, công việc đi qua ba pha có điểm dừng sau mỗi pha, và không được chỉnh giả định để kết quả đẹp hơn.
+Skill cho trợ lý AI để dựng và phân tích mô hình hiệu quả tài chính dự án (dòng tiền, NPV, IRR, Payback, phân tích độ nhạy, kết luận đầu tư) cho **quyết định nội bộ sơ bộ** về một dự án cụ thể: đầu tư mới, thương vụ M&A hoặc hợp tác kinh doanh. Trọng tâm là kỷ luật giả định: mọi dữ liệu đầu vào đều gắn nhãn, công việc đi qua ba pha có điểm dừng sau mỗi pha, và không được chỉnh giả định để kết quả đẹp hơn.
 
 ## Skill làm gì
 
